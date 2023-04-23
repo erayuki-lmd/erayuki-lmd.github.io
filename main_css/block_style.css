@@ -52,7 +52,7 @@
     top:-4vw;
     left:0px;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .first_textbox > .message{
@@ -127,7 +127,7 @@
     top:-3vw;
     left:0px;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .second_textbox > .message{
@@ -149,10 +149,10 @@
     font-size: 2vw;
     color:var(--obj_color);
     font-family: var(--word_font_jp);
-    top:23vw;
+    top:27vw;
     left:2vw;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .third_leaf_A{
@@ -212,7 +212,7 @@
     top:-4vw;
     left:0px;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .third_textbox > .message{
@@ -237,7 +237,7 @@
     top:20vw;
     left:2vw;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
   
 .block_fade_shape_A{

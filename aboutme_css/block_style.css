@@ -9,7 +9,7 @@
     text-align: left;
     top:60vw;
     left:7vw;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .profile{
@@ -47,7 +47,7 @@
     text-align: left;
     top:105vw;
     left:7vw;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 table.first{
@@ -99,7 +99,7 @@ table.first{
     text-align: left;
     top:155vw;
     left:7vw;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .main_2{
@@ -228,14 +228,14 @@ table.first{
     text-align: center;
     top:5%;
     left: 15%;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 .cycle_text{
     position:absolute;
     height:60%;
     width:90%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: serif;
     text-align: center;
     top:30%;
@@ -246,8 +246,8 @@ table.first{
 .story_2{
     position:absolute;
     height:40vw;
-    width:70vw;
-    font-size: 2.5vw;
+    width:90vw;
+    font-size: 2vw;
     color:var(--obj_color);
     font-family: serif;
     text-align: left;

@@ -6,7 +6,7 @@ function first_style(){
     root.style.setProperty("--bg_color", 'white');
     root.style.setProperty("--banner_bg", 'white');
     root.style.setProperty("--banner_grad", 'yellow');
-    root.style.setProperty("--banner_line", '3px');
+    root.style.setProperty("--banner_line", '0.2vw');
     root.style.setProperty("--obj_color", '#101010');
     root.style.setProperty("--word_font_eng", '"Monotype Corsiva",fantasy');
     root.style.setProperty("--word_font_jp", 'serif');

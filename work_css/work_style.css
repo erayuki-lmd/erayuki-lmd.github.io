@@ -10,14 +10,14 @@
     top:220vw;
     left:10vw;
     text-align:left;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 .detail_title > .mini
 {
     font-size:3vw;
     color:rgb(102, 102, 102);
     font-family: serif;
-    border-bottom: 3px solid var(--obj_color);
+    border-bottom: 0.2vw solid var(--obj_color);
 }
 
 select.tags-select

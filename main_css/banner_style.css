@@ -129,19 +129,19 @@ a.not_under
 .top_banner > .button_1:hover
 {
     color:#BBBBBB;
-    border-bottom: 3px solid #BBBBBB;
+    border-bottom: 0.2vw solid #BBBBBB;
 }
 
 .top_banner > .button_2:hover
 {
     color:#BBBBBB;
-    border-bottom: 3px solid #BBBBBB;
+    border-bottom: 0.2vw solid #BBBBBB;
 }
 
 .top_banner > .button_3:hover
 {
     color:#BBBBBB;
-    border-bottom: 3px solid #BBBBBB;
+    border-bottom: 0.2vw solid #BBBBBB;
 }
 
   
