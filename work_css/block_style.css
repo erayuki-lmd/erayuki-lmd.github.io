@@ -1,0 +1,292 @@
+/* 1枚目の話(研究) */
+.box_1
+{
+    position:absolute;
+    height:30vw;
+    width:91vw;
+    top:60vw;
+    left:0vw;
+    background: rgb(255, 0, 51);
+}
+
+.box_1 > .design
+{
+    position:absolute;
+    height:30vw;
+    width:90vw;
+    top:-1vw;
+    left:0vw;
+    background: rgb(255, 186, 200);
+}
+
+.box_1 > .title
+{
+    position:absolute;
+    height:4vw;
+    width:auto;
+    font-size:3vw;
+    color:black;
+    font-family: var(--word_font_jp);
+    top:0vw;
+    left:2vw;
+    text-align:left;
+    border-bottom: 3px solid black;
+}
+
+.box_1 > .message
+{
+    position:absolute;
+    height:25vw;
+    width:55vw;
+    font-size:2vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:5vw;
+    left:3vw;
+    text-align:left;
+}
+
+.box_1 > .img_A
+{
+    position:absolute;
+    height:23vw;
+    width:23vw;
+    color:black;
+    top:1vw;
+    left:59vw;
+    background-image: url("../img/GCCE.jpg");
+    background-size:  cover;
+}
+
+.box_1 > .memo
+{
+    position:absolute;
+    height:auto;
+    width:23vw;
+    font-size:1.5vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:25vw;
+    left:59vw;
+    text-align:center;
+}
+
+
+/* 2枚目の話(ゲーム) */
+.box_2
+{
+    position:absolute;
+    height:30vw;
+    width:91vw;
+    top:100vw;
+    right:0vw;
+    background: rgb(255, 183, 0);
+}
+
+.box_2 > .design
+{
+    position:absolute;
+    height:30vw;
+    width:90vw;
+    top:-1vw;
+    right:0vw;
+    background: rgb(252, 232, 181);
+}
+
+.box_2 > .title
+{
+    position:absolute;
+    height:4vw;
+    width:auto;
+    font-size:3vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:0vw;
+    left:3vw;
+    text-align:left;
+    border-bottom: 3px solid black;
+}
+
+.box_2 > .message
+{
+    position:absolute;
+    height:25vw;
+    width:45vw;
+    font-size:2vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:5vw;
+    left:4vw;
+    text-align:left;
+}
+
+.box_2 > .img_B
+{
+    position:absolute;
+    height:23vw;
+    width:23vw;
+    color:black;
+    top:1vw;
+    left:59vw;
+    background-image: url("../img/GCCE.jpg");
+    background-size:  cover;
+}
+
+
+/* 3枚目の話(ゲーム) */
+.box_3
+{
+    position:absolute;
+    height:30vw;
+    width:91vw;
+    top:140vw;
+    left:0vw;
+    background: rgb(0, 255, 51);
+}
+
+.box_3 > .design
+{
+    position:absolute;
+    height:30vw;
+    width:90vw;
+    top:-1vw;
+    left:0vw;
+    background: rgb(192, 255, 204);
+}
+
+.box_3 > .title
+{
+    position:absolute;
+    height:4vw;
+    width:auto;
+    font-size:3vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:0vw;
+    left:3vw;
+    text-align:left;
+    border-bottom: 3px solid black;
+}
+
+.box_3 > .message
+{
+    position:absolute;
+    height:25vw;
+    width:45vw;
+    font-size:2vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:5vw;
+    left:4vw;
+    text-align:left;
+}
+
+.box_3 > .img_C
+{
+    position:absolute;
+    height:20vw;
+    width:30vw;
+    color:black;
+    top:3vw;
+    left:55vw;
+    background-image: url("../img/EXCEL.png");
+    background-size:  cover;
+}
+
+.box_3 > .memo
+{
+    position:absolute;
+    height:auto;
+    width:36vw;
+    font-size:1.5vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:25vw;
+    left:52vw;
+    text-align:center;
+}
+
+
+/* 4枚目の話(デザイン) */
+.box_4
+{
+    position:absolute;
+    height:30vw;
+    width:91vw;
+    top:180vw;
+    right:0vw;
+    background: rgb(72, 0, 255);
+}
+
+.box_4 > .design
+{
+    position:absolute;
+    height:30vw;
+    width:90vw;
+    top:-1vw;
+    right:0vw;
+    background: rgb(214, 198, 255);
+}
+
+.box_4 > .title
+{
+    position:absolute;
+    height:4vw;
+    width:auto;
+    font-size:3vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:0vw;
+    left:3vw;
+    text-align:left;
+    border-bottom: 3px solid black;
+}
+
+.box_4 > .message
+{
+    position:absolute;
+    height:25vw;
+    width:45vw;
+    font-size:2vw;
+    color:black;
+    font-family:  var(--word_font_jp);
+    top:5vw;
+    left:4vw;
+    text-align:left;
+}
+
+.box_4 > .img_D
+{
+    position:absolute;
+    height:20vw;
+    width:30vw;
+    color:black;
+    top:5vw;
+    left:55vw;
+    background-image: url("../img/DESIGN.png");
+    background-size:  cover;
+}
+
+
+/* 動き */
+.block_fade_box_left{
+    opacity:0.5;
+    transform: translateX(-100vw);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.block_fade_box_left.view{
+    transform: translateX(0);
+    opacity:1;
+}
+
+.block_fade_box_right{
+    opacity:0.5;
+    transform: translateX(100vw);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.block_fade_box_right.view{
+    transform: translateX(0);
+    opacity:1;
+}

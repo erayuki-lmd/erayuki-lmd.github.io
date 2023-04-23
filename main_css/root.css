@@ -1,0 +1,54 @@
+:root
+{
+    --first_part:rgba(255, 255, 0, 0.5);
+    --second_part:rgba(0, 34, 255, 0.5);
+    --bg_color:white;
+    --banner_bg: white;
+    --banner_grad: yellow;
+    --banner_line:3px;
+    --obj_color: #101010;
+    --word_font_eng:  "Monotype Corsiva",fantasy;
+    --word_font_jp:  serif;
+    --square_bg: none;
+    --triangle_bg: none;
+    --triangle_size: 0vw;
+    --triangle_size_A: 15vw;
+    --triangle_size_B: 20vw;
+    --leaf_bg: none;
+}
+
+body{
+    background: var(--bg_color);
+}
+
+.change_animation{
+    position:fixed;
+    top:50vh;
+    left:50vw;
+    width:0px;
+    height:0px;
+    border-radius: 50%;
+    transition: all 1s;
+    background: white;
+}
+
+.bg_animation{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:0px;
+    width:0px;
+}
+
+.bg_animation > .firework{
+    position:absolute;
+    top:0vw;
+    left:0vw;
+    width:0vw;
+    height:0vw;
+    background-image:var(--bg_img_A);
+    transition: all 2s;
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    z-index: -1;
+}

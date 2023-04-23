@@ -1,0 +1,347 @@
+/* 作品紹介 */
+.detail_title
+{
+    position:absolute;
+    height:4vw;
+    width:auto;
+    font-size:3vw;
+    color:var(--obj_color);
+    font-family: serif;
+    top:220vw;
+    left:10vw;
+    text-align:left;
+    border-bottom: 3px solid var(--obj_color);
+}
+.detail_title > .mini
+{
+    font-size:3vw;
+    color:rgb(102, 102, 102);
+    font-family: serif;
+    border-bottom: 3px solid var(--obj_color);
+}
+
+select.tags-select
+{
+    position:absolute;
+    height:3vw;
+    top:221vw;
+    left:80vw;
+    font-size:2vw;
+
+}
+
+.select-txt
+{
+    position:absolute;
+    height:3vw;
+    top:221vw;
+    left:60vw;
+    width:17vw;
+    text-align:right;
+    font-size:2vw;
+    color:var(--obj_color);
+}
+
+
+/* 作品配置 */
+.classes
+{
+    position:relative;
+    width:32vw;
+    height:35vw;
+}
+
+.classes > .title
+{
+    position:absolute;
+    width:20vw;
+    height:3vw;
+    top:18vw;
+    left:0px;
+    color:var(--obj_color);
+    font-family: serif;
+    font-size:2vw;
+    text-align:left;
+}
+
+.classes > .message
+{
+    position:absolute;
+    width:32vw;
+    height:12vw;
+    top:22vw;
+    color:var(--obj_color);
+    font-size:1.5vw;
+    font-family: serif;
+    right:0px;
+    text-align:left;
+    /* background:yellow */
+}
+
+.classes > .g_tag
+{
+    position:absolute;
+    width:10vw;
+    height:3vw;
+    top:18vw;
+    font-size:2vw;
+    right:0px;
+    text-align:center;
+    font-family: sans-serif, "Arial Black";
+    background-color: rgb(255, 214, 138);
+}
+
+.classes > .e_tag
+{
+    position:absolute;
+    width:10vw;
+    height:3vw;
+    top:18vw;
+    font-size:2vw;
+    right:0px;
+    text-align:center;
+    font-family: sans-serif, "Arial Black";
+    background-color: rgb(148, 255, 141);
+}
+
+.classes > .d_tag
+{
+    position:absolute;
+    width:10vw;
+    height:3vw;
+    top:18vw;
+    font-size:2vw;
+    right:0px;
+    text-align:center;
+    font-family: sans-serif, "Arial Black";
+    background-color: rgb(130, 149, 255);
+}
+
+
+/* 作品配置 */
+.obj_1
+{
+    position:absolute;
+    top:230vw;
+    left:14vw;
+    background-image: url("../work_img/work_1.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_2
+{
+    position:absolute;
+    top:230vw;
+    left:54vw;
+    background-image: url("../work_img/work_2.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_3
+{
+    position:absolute;
+    top:270vw;
+    left:14vw;
+    background-image: url("../work_img/work_3.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_4
+{
+    position:absolute;
+    top:270vw;
+    left:54vw;
+    background-image: url("../work_img/work_4.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_5
+{
+    position:absolute;
+    top:310vw;
+    left:14vw;
+    background-image: url("../work_img/work_5.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_6
+{
+    position:absolute;
+    top:310vw;
+    left:54vw;
+    background-image: url("../work_img/work_6.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_7
+{
+    position:absolute;
+    top:350vw;
+    left:14vw;
+    background-image: url("../work_img/work_7.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_8
+{
+    position:absolute;
+    top:350vw;
+    left:54vw;
+    background-image: url("../work_img/work_8.jpg");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+    transition: all 1.5s;
+}
+
+.obj_appear
+{
+    position:fixed;
+    top:0vw;
+    left:0vw;
+    height:0px;
+    width:0px;
+}
+
+
+.obj_appear.view1
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_1.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view2
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_2.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view3
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_3.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view4
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_4.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view5
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_5.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view6
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_6.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view7
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    width:60vw;
+    height:35vw;
+    background-image:url("../work_img/work_7.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.obj_appear.view8
+{
+    position:fixed;
+    top:10vw;
+    left:35vw;
+    width:30vw;
+    height:35vw;
+    background-image:url("../work_img/work_8.png");
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.back_button
+{
+    position:fixed;
+    top:10vw;
+    left:20vw;
+    height:3vw;
+    width:6vw;
+    font-size:2vw;
+    background:pink;
+    text-align: center;
+    opacity:0;
+}
+
+
+.bg
+{
+    position:fixed;
+    top:0vw;
+    left:0vw;
+    height:0px;
+    width:0px;
+}
+
+.bg.view
+{
+    position:fixed;
+    top:0vw;
+    left:0vw;
+    height:100vw;
+    width:100vw;
+    background: rgba(0, 0, 0, 0.5);
+}

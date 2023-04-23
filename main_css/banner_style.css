@@ -1,0 +1,155 @@
+.top_banner{
+    position: fixed;
+    width: 100%;
+    height: 10vw;
+}
+
+.top_banner > .back_1
+{
+    position: fixed;
+    width: 10vw;
+    height: 10vw;
+    background: radial-gradient(var(--banner_bg) 0%, var(--banner_bg) 4.5vw, transparent 5vw);
+    top: 0vw;
+    left: 2vw;
+}
+
+.top_banner > .back_2
+{
+    position: fixed;
+    width: 100%;
+    height: 4vw;
+    background: linear-gradient(to top, transparent, var(--banner_grad));
+    top: 5vw;
+    left:0px;
+}
+
+.top_banner > .back_3
+{
+    position: fixed;
+    width: 100%;
+    height: 5vw;
+    background: var(--banner_bg);
+    top: 0px;
+    left:0px;
+}
+
+.top_banner > .logo_back
+{
+    position: fixed;
+    width:9vw;
+    height:9vw;
+    border-radius: 50%;
+    background:var(--banner_bg);
+    top: 0.5vw;
+    left: 2.5vw;
+}
+
+.top_banner > .logo_back > .logo
+{
+    position: fixed;
+    width:8vw;
+    height:8vw;
+    border-radius: 50%;
+    background:var(--obj_color);
+    top: 1vw;
+    left:3vw;
+}
+
+a.not_under
+{
+    text-decoration: none;
+}
+
+.top_banner > .button_1
+{
+    position: fixed;
+    width:calc(20vw - 3px);
+    height:3.5vw;
+    font-size:3.5vw;
+    font-family: var(--word_font_eng);
+    color:var(--obj_color);
+    text-align: center;
+    vertical-align: bottom;
+    display:inline-block;
+    border-bottom: var(--banner_line) solid var(--obj_color);
+    top:1vw;
+    left:15vw;
+}
+
+.top_banner > .button_2
+{
+    position: fixed;
+    width:calc(20vw - 3px);
+    height:3.5vw;
+    font-size:3.5vw;
+    font-family: var(--word_font_eng);
+    color:var(--obj_color);
+    text-align: center;
+    vertical-align: bottom;
+    display:inline-block;
+    border-bottom: var(--banner_line) solid var(--obj_color);
+    top:1vw;
+    left:35vw;
+}
+
+.top_banner > .button_3
+{
+    position: fixed;
+    width:calc(20vw - 3px);
+    height:3.5vw;
+    font-size:3.5vw;
+    font-family: var(--word_font_eng);
+    color:var(--obj_color);
+    text-align: center;
+    vertical-align: bottom;
+    display:inline-block;
+    border-bottom: var(--banner_line) solid var(--obj_color);
+    top:1vw;
+    left:55vw;
+}
+
+.top_banner > .button_4
+{
+    position: fixed;
+    width:calc(20vw - 3px);
+    height:3vw;
+    font-size:2vw;
+    font-family: var(--word_font_jp);
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5vw;
+    background-color: black;
+    top:1.5vw;
+    left:77vw;
+}
+
+
+.top_banner > .button_1:hover
+{
+    color:#BBBBBB;
+    border-bottom: 3px solid #BBBBBB;
+}
+
+.top_banner > .button_2:hover
+{
+    color:#BBBBBB;
+    border-bottom: 3px solid #BBBBBB;
+}
+
+.top_banner > .button_3:hover
+{
+    color:#BBBBBB;
+    border-bottom: 3px solid #BBBBBB;
+}
+
+  
+.banner_fade{
+    opacity:0;
+    transition: opacity 3s;
+}
+
+.banner_fade.view{
+    opacity:1;
+}
