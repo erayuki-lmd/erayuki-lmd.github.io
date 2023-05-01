@@ -40,7 +40,7 @@
     width:9vw;
     height:9vw;
     border-radius: 50%;
-    background:var(--banner_bg);
+    background:var(--obj_color);
     top: 0.5vw;
     left: 2.5vw;
 }
@@ -51,7 +51,10 @@
     width:8vw;
     height:8vw;
     border-radius: 50%;
-    background:var(--obj_color);
+    /* background:var(--obj_color); */
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
     top: 1vw;
     left:3vw;
 }

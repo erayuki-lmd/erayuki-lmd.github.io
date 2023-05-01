@@ -124,12 +124,13 @@
 {
     position:absolute;
     height:23vw;
-    width:23vw;
+    width:35vw;
     color:black;
-    top:1vw;
-    left:59vw;
-    background-image: url("../img/GCCE.jpg");
-    background-size:  cover;
+    top:3vw;
+    left:53vw;
+    background-image: url("../img/GAME.png");
+    background-size: contain;
+    background-repeat:  no-repeat;
 }
 
 
